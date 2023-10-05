@@ -3,10 +3,13 @@
 **Technologies Used**
 
 
-**1IDE**
-1.I have done this assignmnet by using Eclipse IDE.
+**1.IDE**
+
+I have done this assignmnet by using Eclipse IDE.
 
 **2.Programming Language**
+
+
 I have done this assignment by using java.In java, I have used a concept called Java Server Pages(JSP).It will accept both WebTechnologies(HTML,CSS,JavaScript) and Java code.
 
 To take input from the user i have created a JSP file called **UserInputForm**.
@@ -14,15 +17,22 @@ I have written a back end code in another JSP file called **InsertRecord** to co
 I have written another JSP file called **DisplayDetails** to display the user details in the table format.
 
 **3.Database**
+
   **MySQL Workbench**
+  
 I have used mySQL Workbench to store user data.
 I have created a database called tejm31_databse in that i have created a table called **user_table**
 The table contains 5 fields/attributes they are id,name,email,age and date of birth.
 
-**3.set up and run** 
+**4.set up and run** 
+
+
 1.Download zip file called GKBLABSAssignmnet.
+
 2.TO validate and insert record in to the database you have to run the JSP file called "UserInputForm".
+
 3.Download Tomcat10 server to run the project in localhost.
+
 4.To run the **UserInputForm.jsp** file we have to select the option called Run which on the top the IDE, 
 We will have green button or select the project and right click on the project then you will get an option
 called run as in that you have to select run on server.
@@ -37,5 +47,6 @@ in the browser. In that you have to provide specific data to store it in databas
 "record inserted successfully".
 
 4.**To display the records in the user_table**
-To display the records in the table format you have to run the file called DisplayDetails.jsp.
+
+To display the records in the table format you have to run the file called **DisplayDetails.jsp.** then select the tomcat sever 10.
 If you run this JSP file then you get the records which are present in the user_table other wise you get a message called "No records found".
